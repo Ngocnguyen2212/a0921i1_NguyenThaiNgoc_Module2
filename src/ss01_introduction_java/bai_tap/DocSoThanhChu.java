@@ -77,37 +77,106 @@ public class DocSoThanhChu {
                         break;
                 }
             } else {
-                if (number >=20 && number < 100) {
-                    int ones = number%10;
-                    int tens = (number-ones)/10;
+                if (number >= 20 && number < 100) {
+                    int ones = number % 10;
+                    int tens = (number - ones) / 10;
                     switch (tens) {
                         case 2:
-                            System.out.println("twenty");
+                            System.out.print("twenty");
                             break;
                         case 3:
-                            System.out.println("thirty");
+                            System.out.print("thirty");
                             break;
                         case 4:
-                            System.out.println("twenty");
+                            System.out.print("fourty");
+                            break;
+                        case 5:
+                            System.out.print("fifty");
+                            break;
+                        case 6:
+                            System.out.print("sixty");
+                            break;
+                        case 7:
+                            System.out.print("seventy");
+                            break;
+                        case 8:
+                            System.out.print("eighty");
+                            break;
+                        case 9:
+                            System.out.println("ninety");
+                            break;
+                    }
+                    switch (ones) {
+                        case 0:
+                            break;
+                        case 1:
+                            System.out.println("one");
                             break;
                         case 2:
-                            System.out.println("twenty");
+                            System.out.println("two");
                             break;
-                        case 2:
-                            System.out.println("twenty");
+                        case 3:
+                            System.out.println("three");
                             break;
-                        case 2:
-                            System.out.println("twenty");
+                        case 4:
+                            System.out.println("four");
                             break;
-                        case 2:
-                            System.out.println("twenty");
+                        case 5:
+                            System.out.println("five");
                             break;
-                        case 2:
-                            System.out.println("twenty");
+                        case 6:
+                            System.out.println("six");
                             break;
+                        case 7:
+                            System.out.println("seven");
+                            break;
+                        case 8:
+                            System.out.println("eight");
+                            break;
+                        case 9:
+                            System.out.println("nine");
+                            break;
+                    }
+                } else {
+                    if (number < 1000) {
+                        int ones = number % 10;
+                        int hundred = (number - ones) / 100;
+                        int tens = number - (hundred * 100 - ones);
+                        switch (hundred) {
+                            case 1:
+                                System.out.print(" one hundred");
+                                break;
+                            case 2:
+                                System.out.print(" two hundreds");
+                                break;
+                            case 3:
+                                System.out.print(" three hundreds");
+                                break;
+                            case 4:
+                                System.out.print(" four hundreds");
+                                break;
+                            case 5:
+                                System.out.print(" five hundreds");
+                                break;
+                            case 6:
+                                System.out.print(" six hundreds");
+                                break;
+                            case 7:
+                                System.out.print(" seven hundreds");
+                                break;
+                            case 8:
+                                System.out.print(" eight hundreds");
+                                break;
+                            case 9:
+                                System.out.print(" nine hundreds");
+                                break;
+                        }
+                        // cho nay em chua biet cach goi lai
+                    } else {
+                        System.out.println("Invlid number");
+                    }
                     }
                 }
             }
         }
     }
-}
