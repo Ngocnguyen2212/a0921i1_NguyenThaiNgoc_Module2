@@ -1,4 +1,4 @@
-package ss01_introduction_java.thuchanh;
+package ss01_introduction_java.thuc_hanh;
 
 public class Main {
     public static void main(String[] args) {

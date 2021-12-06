@@ -1,6 +1,4 @@
-package ss01_introduction_java.thuchanh;
-
-import org.w3c.dom.ls.LSInput;
+package ss01_introduction_java.thuc_hanh;
 
 import java.util.Scanner;
 

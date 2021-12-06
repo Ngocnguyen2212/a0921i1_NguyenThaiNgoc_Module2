@@ -1,8 +1,8 @@
-package ss01_introduction_java.thuchanh;
+package ss01_introduction_java.thuc_hanh;
 
 import java.util.Scanner;
 
-public class days_of_month {
+public class DaysOfMonth {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Which month you want to count days?: ");
