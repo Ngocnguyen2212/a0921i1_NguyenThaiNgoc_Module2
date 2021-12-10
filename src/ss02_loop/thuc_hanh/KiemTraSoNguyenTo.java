@@ -23,6 +23,6 @@ public class KiemTraSoNguyenTo {
                 System.out.println(number + " is a prime");
             else
                 System.out.println(number + " is not a prime");
-        } juhihu
+        } juhihujjjj
     }
 }
