@@ -1,4 +1,6 @@
-package ss06_inheritance.thuc_hanh;
+package ss07_AbtractClass_Interface.thuc_hanh;
+
+import ss07_AbtractClass_Interface.thuc_hanh.Animal;
 
 public class Chicken extends Animal {
     @Override

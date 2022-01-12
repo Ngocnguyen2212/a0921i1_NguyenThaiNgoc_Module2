@@ -1,7 +1,5 @@
-package ss06_inheritance.thuc_hanh;
-import ss06_inheritance.thuc_hanh.Animal;
-import ss06_inheritance.thuc_hanh.Chicken;
-import ss06_inheritance.thuc_hanh.Tiger;
+package ss07_AbtractClass_Interface.thuc_hanh;
+
 public class LopAnimalAndInterfaceEdible {
     public static void main(String[] args) {
         Animal[] animals = new Animal[2];
